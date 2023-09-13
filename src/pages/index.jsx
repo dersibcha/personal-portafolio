@@ -16,7 +16,7 @@ const menuItem = [
   { icon: "fa-user", menuName: "About" },
   { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
-  { icon: "fa-comments", menuName: "Blog" },
+  //{ icon: "fa-comments", menuName: "Blog" },
 ];
 
 const MainRoot = () => {
@@ -25,7 +25,7 @@ const MainRoot = () => {
   }, []);
   return (
     <Wrapper>
-      <SEO pageTitle={"Home Dark"} />
+      <SEO pageTitle={"Derian Sibaja"} />
 
       <div className="yellow">
         <SwitchDark />
@@ -110,12 +110,10 @@ const MainRoot = () => {
                   {/*  Left Side Starts */}
                   <div className="col-12 col-lg-4">
                     <h3 className="text-uppercase custom-title mb-0 ft-wt-600 pb-3">
-                      {"Don't"} be shy !
+                      Feel free to connect! 📬
                     </h3>
                     <p className="open-sans-font mb-4">
-                      Feel free to get in touch with me. I am always open to
-                      discussing new projects, creative ideas or opportunities
-                      to be part of your visions.
+                       I welcome the chance to chat about fresh projects, innovative concepts, or the chance to contribute to your vision.
                     </p>
                     <Address />
                     {/* End Address */}
@@ -136,7 +134,7 @@ const MainRoot = () => {
             </TabPanel>
             {/* Contact Content Ends */}
 
-            {/* Blog Content Starts */}
+            {/* Blog Content Starts 
             <TabPanel className="blog">
               <div
                 className="title-section text-start text-sm-center "
@@ -154,12 +152,12 @@ const MainRoot = () => {
                 data-aos-duration="1200"
               >
                 {/*  Articles Starts  */}
-                <div className="row pb-50">
+                 {/*<div className="row pb-50">
                   <Blog />
                 </div>
                 {/* Articles Ends */}
-              </div>
-            </TabPanel>
+              {/* </div>
+            </TabPanel>*/}
             {/* Blog Content Ends */}
           </div>
         </Tabs>

@@ -48,7 +48,7 @@ html {
   height: 100%;
 }
 :root {
-  --main-primary-color: #ffb400;
+  --main-primary-color: #00bad3; /*ffb400*/
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -690,6 +690,7 @@ body.light .header ul.icon-menu li.icon-box:hover i {
 .home .home-details h1 span {
   color: #fff;
   display: block;
+  font-size: 40px;
 }
 
 .home .home-details h6 {
@@ -1119,6 +1120,28 @@ body.light .contact .custom-span-contact a {
 }
 
 .contact ul.social li a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  font-size: 17px;
+  margin: 0 6px;
+  background: #2b2a2a;
+  border-radius: 50%;
+}
+.home ul.social {
+  margin-left: -5px;
+  padding-top: 15px !important;
+}
+
+.home ul.social li {
+  display: inline-block;
+}
+
+.home ul.social li a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -2091,7 +2114,7 @@ button:focus {
   }
 }
 .green {
-  color: #5be85b;
+  color: #00d398;
 }
 
 .light .green {

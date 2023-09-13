@@ -2,25 +2,16 @@ import React from "react";
 
 const educationContent = [
   {
-    year: "2015",
-    degree: "ENGINEERING DEGREE",
-    institute: "OXFORD UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    year: "2020",
+    degree: "Systems Engineering DEGREE",
+    institute: "Universidad Nacional de Costa Rica",
+    details: `  Study of new computer technologies and methodologies to determine the best approach to use in solving a given situation.`,
   },
   {
-    year: "2012",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
-  },
-  {
-    year: "2009",
-    degree: "BACHELOR DEGREE ",
-    institute: "TUNIS HIGH SCHOOL",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "2023",
+    degree: "Certificate Docker Admin",
+    institute: "Cenfotec",
+    details: `  Understands the importance and functioning of containers in information technology management. The student possesses knowledge about the fundamentals of Docker, networking, ecosystems, storage, and security.`,
   },
 ];
 

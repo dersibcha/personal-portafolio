@@ -10,7 +10,10 @@ import ModalEight from "./modal-by-id/ModalEight";
 import ModalNine from "./modal-by-id/ModalNine";
 
 const ModalMain = ({ modalId, setGetModal }) => {
-  if (modalId === 1) {
+  return (
+      <ModalOne modalId={modalId} setGetModal={setGetModal} />
+    );
+  /*if (modalId === 1) {
     return (
       <ModalOne modalId={modalId} setGetModal={setGetModal} />
     );
@@ -46,7 +49,7 @@ const ModalMain = ({ modalId, setGetModal }) => {
     return (
       <ModalNine modalId={modalId} setGetModal={setGetModal}/>
     );
-  }
+  }*/
 };
 
 export default ModalMain;

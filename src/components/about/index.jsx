@@ -4,11 +4,15 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import cv from "../../../public/assets/img/cv.webp";
 import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
 import Image from "next/image";
+import useDownloader from "react-use-downloader";
 
-const index = () => {
+const fileUrl = "/assets/Derian_Sibaja_CV_Resume.pdf";
+const filename = "Derian_Sibaja_CV_Resume.pdf";
+
+const Index = () => {
+  const { download } = useDownloader();
   return (
     <section className="main-content ">
       <div className="container">
@@ -19,7 +23,7 @@ const index = () => {
             <div className="row">
               <div className="col-12">
                 <h3 className="text-uppercase custom-title mb-0 ft-wt-600">
-                  personal infos
+                  personal information
                 </h3>
               </div>
               {/* End .col */}
@@ -39,10 +43,10 @@ const index = () => {
               {/* End personal info */}
 
               <div className="col-12 mt-1">
-                <a className="button" href={cv} download>
+                <div className="button" onClick={() => download(fileUrl, filename, 'application/pdf')} download>
                   <span className="button-text">Download CV</span>
                   <span className="button-icon fa fa-download"></span>
-                </a>
+                </div>
               </div>
               {/* End download button */}
             </div>
@@ -96,4 +100,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

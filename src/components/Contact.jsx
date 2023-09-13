@@ -10,10 +10,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_n4mkhz9",
-        "template_ugoztxr",
+        "service_xo5ab3g",
+        "template_cjtnhiw",
         form.current,
-        "user_vYmDSd9PwIuRXUQEDjYwN"
+        "s2tlrXipPBEVR4vnr"
       )
       .then(
         (result) => {
@@ -58,7 +58,7 @@ const Contact = () => {
             <div className="form-group">
               <input
                 type="email"
-                name="user_email"
+                name="email"
                 placeholder="YOUR EMAIL"
                 required
               />

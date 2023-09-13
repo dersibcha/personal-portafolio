@@ -4,16 +4,15 @@ import heroImgMobile from "../../../public/assets/img/hero/img-mobile.jpg";
 import cancelImg from "../../../public/assets/img/cancel.svg";
 import AboutMain from "../about";
 import Image from "next/image";
+import Social from "../Social";
 
 const heroContent = {
-  heroImage: "/assets/img/hero/dark.jpg",
-  heroMobileImage: heroImgMobile,
-  heroTitleName: "steve milner",
-  heroDesignation: "web designer",
-  heroDescriptions: `I'm a Tunisian based web designer & front‑end developer focused on
-  crafting clean & user‑friendly experiences, I am passionate about
-  building excellent software that improves the lives of those
-  around me.`,
+  heroImage: "/assets/img/hero/pixelgif.gif",
+  heroMobileImage: "/assets/img/hero/pixelgif.gif",
+  heroTitleName: "Derian Sibaja",
+  heroDesignation: "Software Engineer",
+  heroDescriptions: ` I'm Software Engineer from Costa Rica. With over 5+ years of experience in the field, from creating stunning user interfaces to tackling complex server-side challenges, I cover the full stack.`,
+  heroDescriptionTwo:  ` I'm all about transforming ideas into reality. Let's bring your vision to life and build something exceptional together. 🚀`,
   heroBtn: "more about me",
 };
 
@@ -36,6 +35,8 @@ const Hero = () => {
               src={heroContent.heroMobileImage}
               className="img-fluid main-img-mobile d-sm-block d-lg-none"
               alt="hero man"
+              width={300}
+              height={300}
               // style={{width:'100%',height:'100%'}}
             />
             <h1 className="text-uppercase poppins-font">
@@ -43,10 +44,14 @@ const Hero = () => {
               <span>{heroContent.heroDesignation}</span>
             </h1>
             <p className="open-sans-font">{heroContent.heroDescriptions}</p>
+            <p className="open-sans-font">{heroContent.heroDescriptionTwo}</p>
             <button className="button" onClick={toggleModalOne}>
               <span className="button-text">{heroContent.heroBtn}</span>
               <span className="button-icon fa fa-arrow-right"></span>
             </button>
+            <div className="pt-4">
+            <Social />
+            </div>
           </div>
         </div>
       </div>
