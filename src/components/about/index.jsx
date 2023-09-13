@@ -4,12 +4,11 @@ import Education from "./Education";
 import Experience from "./Experience";
 import PersonalInfo from "./PersonalInfo";
 import Skills from "./Skills";
-import heroImgMobile from "../../../public//assets/img/hero/pixelgif.gif"
 import Image from "next/image";
 import useDownloader from "react-use-downloader";
 
-const fileUrl = "/assets/Derian_Sibaja_CV_Resume.pdf";
-const filename = "Derian_Sibaja_CV_Resume.pdf";
+const fileUrl = "/assets/Derian_Sibaja_CV.pdf";
+const filename = "Derian_Sibaja_CV.pdf";
 
 const Index = () => {
   const { download } = useDownloader();
@@ -28,14 +27,14 @@ const Index = () => {
               </div>
               {/* End .col */}
 
-              <div className="col-12 d-block d-sm-none">
+              {/* <div className="col-12 d-block d-sm-none">
                 <Image
                   src={heroImgMobile}
                   className="img-fluid main-img-mobile"
                   alt="about avatar"
                 />
               </div>
-              {/* image for mobile menu */}
+              image for mobile menu */}
 
               <div className="col-12">
                 <PersonalInfo />
