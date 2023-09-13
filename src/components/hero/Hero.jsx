@@ -11,7 +11,7 @@ const heroContent = {
   heroMobileImage: "/assets/img/hero/pixelgif.gif",
   heroTitleName: "Derian Sibaja",
   heroDesignation: "Software Engineer",
-  heroDescriptions: ` I'm Software Engineer from Costa Rica. With over 5+ years of experience in the field, from creating stunning user interfaces to tackling complex server-side challenges, I cover the full stack.`,
+  heroDescriptions: ` I'm a Software Engineer from Costa Rica. With over 5+ years of experience in the field, from creating stunning user interfaces to tackling complex server-side challenges, I cover the full stack.`,
   heroDescriptionTwo:  ` I'm all about transforming ideas into reality. Let's bring your vision to life and build something exceptional together. 🚀`,
   heroBtn: "more about me",
 };
